@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    
+}
+
+header {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+
+.pagelogin{
+    background-color: #D9AC6B;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.pagelogin .logoinlogin{
+    position: absolute;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.pagelogin .rightpage{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: #001B2E;
+    left: 50%;
+    border-radius: 200px 0 0 200px;
+    text-align: center;
+    font-size:large;
+    color: #ffffff;
+}
+.pagelogin .rightpage .formlog{
+    position: relative;
+    width: 50%;
+    left: 35%;
+    top: 20px;
+    
+}
+.formlogin{
+    text-align: left;
+}
+.formlogin #flogin{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 15px;
+    border: 0.5px solid gray;
+    cursor: text;
+}
+#btnlogin{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    font-size: 25px;
+    cursor: pointer;
+    color: #4A4444;
+    background-color: #e1e0e0;
+}
+
+#btnlogin:hover{
+    background-color:#D9AC6B ;
+    color: #fff;
+}
+
+/* Index */
+
+a{
+    color: #000;    
+}
+
+.container .logoinnav{
+    height: 30px;
+    width: 50px;
+    color:#D9AC6B ;
+}
+
+.container{
+    width: 100%;
+
+}
+
+/* Setting */
+
+.pagesetting{
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px #d4d4d4;
+    margin-bottom: 30px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.pagesetting .textsetting{
+    width: 95%;
+    margin: 0 auto;
+}
+.pagesettingadmin{
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px #d4d4d4;
+    margin-bottom: 30px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    
+}
+.pagesettingalamat{
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px #d4d4d4;
+    margin-top: 50px;
+    height: auto;
+}
+
+.pagesettingalamat #btnAlamat{
+    position: relative;
+    margin-top: -20px;
+}
+
+.pagesettingalamat .textalamat{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.pagesettingalamat .textalamat .cardalamat{
+    width: 98%;
+    margin-top: 10px;
+    border: 0.5px solid rgb(78, 78, 78);
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0.5px 0.5px 5px gray;
+    height: auto;
+}
+
+.btnbeli {
+        
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+
+  .btnbeli {
+    border: 2px solid #D9AC6B;
+    z-index: 1;
+    color: #D9AC6B;
+  }
+
+  .btnbeli:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: #D9AC6B;
+    transition: all 0.3s ease;
+  }
+
+  .btnbeli:hover {
+    color: white;
+  }
+
+  .btnbeli:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+
+  .btnbeli:active {
+    top: 2px;
+  }
+
+.btnupbeli{
+    margin: 8px;
+    width: 300px;
+    height: 64px;
+}
+/* Pembayaran */
+
+.pagepembayaran{
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px #d4d4d4;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 70%;
+}
+
+.pagepembayaran .textpembayaran{
+    width: 95%;
+    margin: 0 auto;
+    
+    
+}
+
+.pageproduk{
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px #d4d4d4;
+    margin-bottom: 30px;
+    height: 300px;
+   
+}
+
+.pagesettingalamat{
+    background-color: #ececec;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px #d4d4d4;
+    margin-top: 50px;
+    height: auto;
+}
+
+.pagesettingalamat #btnAlamat{
+    position: relative;
+    margin-top: -20px;
+}
+
+.pagesettingalamat .textalamat{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.pagesettingalamat .textalamat .cardalamat{
+    width: 98%;
+    margin-top: 10px;
+    border: 0.5px solid rgb(78, 78, 78);
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0.5px 0.5px 5px gray;
+    height: auto;
+}
+
+.banner{
+    float: left;
+    width: 50%;
+    padding: 100px;
+    min-height: 500px;
+}
+
+
+.clearfix{
+    background-color: #D9AC6B;
+}
+
+
+
+
